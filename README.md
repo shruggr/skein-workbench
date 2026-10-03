@@ -1,5 +1,14 @@
 # skein-workbench
 
+> **Archived.** This app is split into two (shruggr/skein#83):
+> [shruggr/skein-shell](https://github.com/shruggr/skein-shell) — `run` and
+> the whole userland (brush, coreutils, the toolset, python's stdlib) as
+> files of its tree — and
+> [shruggr/skein-chat](https://github.com/shruggr/skein-chat) — the chat
+> loop. Install those; a skein's genesis no longer wires `run` or `chat`.
+> Each carries the history of its programs from here; the `mount` issue
+> moved to shruggr/skein-shell#1.
+
 The shell and the chat loop for a [skein](https://github.com/shruggr/skein),
 as one app: `run` runs a bash command in the WASI shell over a tree, and
 `chat` is the turn loop that asks an inference peer and runs tool calls.
